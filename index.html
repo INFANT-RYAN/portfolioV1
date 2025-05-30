@@ -1,46 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
-</head>
-<body class="bg-[#222629] w-[100%] text-white">
+  </head>
+  <body class="bg-[#222629] w-[100%] text-white">
     <header>
-        <nav >
-            <ul class="flex justify-center gap-10 p-5 text-xl font-semibold ">
-                <li class="hover:underline hover:decoration-[#86c232] pb-1 " style="text-decoration-thickness: 4px">Home</li>
-                <li class="hover:underline hover:decoration-[#86c232] pb-1 " style="text-decoration-thickness: 4px">Education</li>
-                <li class="hover:underline hover:decoration-[#86c232] pb-1 " style="text-decoration-thickness: 4px"><a href="#project">Project</a></li>
-                <li class="hover:underline hover:decoration-[#86c232] pb-1 " style="text-decoration-thickness: 4px">Tech Stack</li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="flex justify-center gap-10 p-5 text-xl font-semibold">
+          <li
+            class="hover:underline hover:decoration-[#86c232] pb-1"
+            style="text-decoration-thickness: 4px"
+          >
+            Home
+          </li>
+          <li
+            class="hover:underline hover:decoration-[#86c232] pb-1"
+            style="text-decoration-thickness: 4px"
+          >
+            Education
+          </li>
+          <li
+            class="hover:underline hover:decoration-[#86c232] pb-1"
+            style="text-decoration-thickness: 4px"
+          >
+            <a href="#project">Project</a>
+          </li>
+          <li
+            class="hover:underline hover:decoration-[#86c232] pb-1"
+            style="text-decoration-thickness: 4px"
+          >
+            Tech Stack
+          </li>
+        </ul>
+      </nav>
     </header>
-    <section class="h-screen bg-[url('./bg_hero1.avif')] bg-cover bg-center flex justify-center items-center">
-        <div class="text-center leading-10 p-50">
-            <p class="text-[#e6e5e3] text-xl">hello, I'm <span class="font-semibold text-[#86c232]">Infant Ryan J</span></p>
-            <h2 class="text-6xl font-bold pb-8"><span class="border-b-8 border-b-[#86c232] ">Welcome</span> to my portfolio</h2>
-            <p class="text-[#e6e5e3] text-lg">An ambitious web developer and recent graduate, driven by curiosity and creativity to craft impactful digital experiences. 🚀</p>
-            <button class="bg-[#86c232] px-4 rounded-xl font-bold m-4">Download Resume</button>
-        </div>
+    <section
+      class="h-screen bg-[url('./bg_hero1.avif')] bg-cover bg-center flex justify-center items-center"
+    >
+      <div class="text-center leading-10 p-50">
+        <p class="text-[#e6e5e3] text-xl">
+          hello, I'm
+          <span class="font-semibold text-[#86c232]">Infant Ryan J</span>
+        </p>
+        <h2 class="text-6xl font-bold pb-8">
+          <span class="border-b-8 border-b-[#86c232]">Welcome</span> to my
+          portfolio
+        </h2>
+        <p class="text-[#e6e5e3] text-lg">
+          An ambitious web developer and recent graduate, driven by curiosity
+          and creativity to craft impactful digital experiences. 🚀
+        </p>
+        <button class="bg-[#86c232] px-4 rounded-xl font-bold m-4">
+          Download Resume
+        </button>
+      </div>
     </section>
-    <section id="project" class="bg-[url('./project.jpg')] bg-cover bg-center h-screen p-20">
-        <h3 class="font-bold text-6xl text-center my-10"> <span class="border-b-8 border-b-[#86c232] pb-2 ">Projects</span></h3>
-        <div class="w-[100%] flex justify-center items-center gap-5 my-10 ">
-            <div class="w-[30%] border-3 border-[#474b4f] bg-[#222629] mt-8 rounded-xl p-5">
-            <h3 class="font-bold text-xl pb-3">BlueSwitch</h3>
-            <p class="text-[#6b6e70] font-semibold pb-3">Control home appliances wirelessly using Arduino and a Bluetooth module for a seamless, smart living experience. 🚀</p>
-            <button class="bg-[#86c232] p-1 rounded-sm font-bold my-2">Read more >></button>
+    <section
+      id="project"
+      class="bg-[url('./project.jpg')] bg-cover bg-center h-screen p-20"
+    >
+      <h3 class="font-bold text-6xl text-center my-10">
+        <span class="border-b-8 border-b-[#86c232] pb-2">Projects</span>
+      </h3>
+      <div class="w-[100%] flex justify-center items-center gap-5 my-10">
+        <div
+          class="w-[30%] border-3 border-[#474b4f] bg-[#222629] mt-8 rounded-xl p-5"
+        >
+          <h3 class="font-bold text-xl pb-3">BlueSwitch</h3>
+          <p class="text-[#6b6e70] font-semibold pb-3">
+            Control home appliances wirelessly using Arduino and a Bluetooth
+            module for a seamless, smart living experience. 🚀
+          </p>
+          <button class="bg-[#86c232] p-1 rounded-sm font-bold my-2">
+            Read more >>
+          </button>
         </div>
-        <div class="w-[30%] border-3 border-[#474b4f] bg-[#222629] mt-8 rounded-xl p-5">
-            <h3 class="font-bold text-xl pb-3">PiControl</h3>
-            <p class="text-[#6b6e70] font-semibold pb-3">PiControl: A Flask-powered Raspberry Pi hub for effortless, secure, and flexible local smart home automation and control. 🏡✨</p>
-            <button class="bg-[#86c232] p-1 rounded-sm font-bold my-2">Read more >></button>
+        <div
+          class="w-[30%] border-3 border-[#474b4f] bg-[#222629] mt-8 rounded-xl p-5"
+        >
+          <h3 class="font-bold text-xl pb-3">PiControl</h3>
+          <p class="text-[#6b6e70] font-semibold pb-3">
+            PiControl: A Flask-powered Raspberry Pi hub for effortless, secure,
+            and flexible local smart home automation and control. 🏡✨
+          </p>
+          <button class="bg-[#86c232] p-1 rounded-sm font-bold my-2">
+            Read more >>
+          </button>
         </div>
-        </div>
-
+      </div>
     </section>
-    
-</body>
+  </body>
 </html>
