@@ -6,7 +6,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
 </head>
-<body class="bg-[#222629] text-white">
+<body class="bg-[#222629] w-[100%] text-white">
     <header>
         <nav >
             <ul class="flex justify-center gap-10 p-5 text-xl font-semibold ">
@@ -25,15 +25,19 @@
             <button class="bg-[#86c232] px-4 rounded-xl font-bold m-4">Download Resume</button>
         </div>
     </section>
-    <section id="project">
-        <h3>Projects</h3>
-        <div>
-            <h3>BlueSwitch</h3>
-            <p>Control home appliances wirelessly using Arduino and a Bluetooth module for a seamless, smart living experience. 🚀</p>
+    <section id="project " class="bg-[url('./project.jpg')] bg-cover bg-center h-screen p-20">
+        <h3 class="font-bold text-6xl text-center my-10"> <span class="border-b-8 border-b-[#86c232] pb-2 ">Projects</span></h3>
+        <div class="w-[100%] flex justify-center items-center gap-5 my-10 ">
+            <div class="w-[30%] border-3 border-[#86c232] bg-[#222629] mt-8 rounded-xl p-5">
+            <h3 class="font-bold text-xl pb-3">BlueSwitch</h3>
+            <p class="text-[#6b6e70] font-semibold pb-3">Control home appliances wirelessly using Arduino and a Bluetooth module for a seamless, smart living experience. 🚀</p>
+            <button class="bg-[#86c232] p-1 rounded-sm font-bold my-2">Read more >></button>
         </div>
-        <div>
-            <h3>PiControl</h3>
-            <p>Your Local Smart Home Hub 🌐 Transform your Raspberry Pi into a Flask-powered remote control center for your home appliances! ⚡ Access and manage devices effortlessly through a sleek web interface, all within your local network—no cloud, just seamless automation at your fingertips. 🏡✨</p>
+        <div class="w-[30%] border-3 border-[#86c232] bg-[#222629] mt-8 rounded-xl p-5">
+            <h3 class="font-bold text-xl pb-3">PiControl</h3>
+            <p class="text-[#6b6e70] font-semibold pb-3">PiControl: A Flask-powered Raspberry Pi hub for effortless, secure, and flexible local smart home automation and control. 🏡✨</p>
+            <button class="bg-[#86c232] p-1 rounded-sm font-bold my-2">Read more >></button>
+        </div>
         </div>
 
     </section>
